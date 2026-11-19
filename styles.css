@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: rgb(72, 110, 214);
+  border-radius: 8px;
+  height: 130px;
+  width: 310px;
+  position: relative;
+  padding: 0 5px;
+}
+
+#photo-journey {
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: 125px;
+}
+#testimonial {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 5px;
+  color: white;
+  margin-top: 50px;
+  font-weight: 200;
+}
+#name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 10px;
+  margin: 10px 10px;
+}
